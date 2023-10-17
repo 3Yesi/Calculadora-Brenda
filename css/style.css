@@ -1,0 +1,122 @@
+:root{
+    --fondo:#b37e0d;
+    --primario:#fd56fa;
+    --fuente:#eed8dc;
+    --fuente-claro:#e8e9de;
+
+}
+
+body{
+    background:url(../imagenes/tarjeta.jpg);
+    margin: 0;
+    padding: 0;
+
+}
+
+main{  
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+
+}
+
+.contenedor{
+    width: 315px;
+    height: 190px;
+    background:url(../imagenes/corazones.jpg);
+    border-radius: 12px;
+    border: 12px;
+    padding: 12px;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+
+.contenedor a {
+    color: var(--fuente);
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.contenedor:hover{
+    box-shadow: 5px 5px 50px var(--fuente-claro);
+}
+
+.contenedor a img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section img{
+    width: 375px;
+    border-radius: 8px;
+}
+
+h2{
+    color: var(--fuente);
+}
+
+form{
+    color: var(--fuente);
+    font-size: 20px;
+}
+
+input{
+    width: 100px;
+    height: 50px;
+    border: 1px solid var(--funte);
+    border-radius: 8px;
+    font-size: 20px;
+    padding-left: 17px;
+    margin: 5px;
+}
+
+#res-anualidades-vencidas{
+    width: 120px;
+    height: 50px;
+    border: 1px solid var(--funte);
+    border-radius: 8px;
+    font-size: 20px;
+    padding-left: 17px;
+    margin: 5px 0 0 5px;
+    text-align: center;
+    padding-top: 5px;
+    box-sizing: border-box;
+    background-color: var(--fuente);
+    color: var(--primario);
+}
+
+input:focus{
+    outline: 5px solid var(--primario);
+    border-radius: 8px;   
+}
+
+.boton-regresar{
+    display: block;
+    width: 120px;
+    height: 50px;
+    background-color: var(--primario);
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    color: var(--fondo);
+    text-decoration: none;
+}
+
+.boton-regresar:hover{
+    box-shadow: 5px 5px 50px var(--fuente-claro);
+
+}

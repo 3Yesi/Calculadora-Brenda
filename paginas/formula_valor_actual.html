@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula de valor actual</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <section>
+        <h2>FORMULA DEL VALOR ACTUAL</h2>
+        <img src="../imagenes/f_valor_actual.jpg" alt="imagen">
+        <form name="formulario_valor_actual" action="">
+            <table>
+                <tr>
+                    <td>Renta Anual</td>
+                    <td>
+                        <input name="monto" placeholder="R" type="number">
+                    </td>
+                </tr>
+                <tr>
+                    <td>tiempo</td>
+                    <td>
+                        <input name="tiempo" placeholder="n" type="number">
+                    </td>   
+                </tr>
+                <tr>
+                    <td>Tasa de Interes</td>
+                    <td>
+                        <input name="interes" placeholder="j -> %" type="number">
+                    </td>
+                </tr>
+                <tr>
+                    <td>capitalizacion </td>
+                    <td>
+                        <input name="capitalizacion" placeholder="m" type="number">
+                    </td>
+                </tr>
+
+                <tr>    
+                    <td>Respuesta</td>
+                    <td>
+                        <p id="res-anualidades-tiempo"></p>
+                    </td>
+                </tr> 
+                <tr>
+                    <td>
+                        <a class="boton-regresar" href="../index.html">Regresar</a>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </section>   
+    <script src="../javaScript/VALOR_ACTUAL.js"></script>               
+</body>
+</html>
